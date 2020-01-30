@@ -2,6 +2,8 @@
 
 Initium is a custom startpage for your browser. Easily access your favourite websites whenever you open your browser or a new tab.
 
+Demo: [Initium Demo](https://kurt.is/demos/initium/)
+
 ## Features
 
 - Search on multiple engines
