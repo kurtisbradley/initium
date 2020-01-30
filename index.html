@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>~</title>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link href="img/favicon.png" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">      
+</head>
+
+<body>
+        <div class="container">
+
+                <div class="notes">
+                        <div id="notes-container">
+                                <div class="notes-icon"><i class="fas fa-pencil-alt"></i></div>
+                                <textarea id="notepad"></textarea>
+                        </div>
+                </div>
+
+                <div class="info">
+                        <div class="weather">
+                                <p id="temperature"></p>
+                                <p id="weather"><i class="material-icons"></i></p>
+                        </div>
+                        <div class="btc">
+                                <i class="fas fa-dollar-sign"></i>
+                                <p id="btc-price"></p>
+                        </div>
+                </div>
+
+                <div class="search">
+                        <form id="search-form" action="https://google.com/search" method="get">
+                                <input type="text" name="q" id="search" autofocus="autofocus" autocomplete="off" placeholder="/?"/>
+                                <label for="search"><span id="search-icon" class="fab fa-google"></span></label>
+                        </form>
+                        <ul id="search-help" class="search-help" style="opacity: 0;"></ul>
+                </div>
+
+                <div class="bookmarks">
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">media</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">reddit</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">util</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">music</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">dev</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                        <div class="bookmarks-section">
+                                <div class="bookmarks-header">other</div>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                                <a href="" target="_blank">example link</a>
+                        </div>
+
+                </div>
+
+                <div class="datetime">
+                        <div id="time"></div>
+                        <div id="date"></div>
+                </div>
+
+        </div>
+</body>
+<script src="js/main.js"></script>
+</html>
